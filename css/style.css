@@ -1,0 +1,227 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Main Styling */
+body,
+html {
+  font-family: 'Montserrat', sans-serif;
+  color: #3d403b;
+}
+
+h1 {font-size: 50px;}
+h3 {font-size: 31px;}
+h4 {font-size: 20px;}
+h5 {font-size: 16px;}
+
+h1,
+h3,
+h4,
+h5 {
+  margin-bottom: 10px;
+}
+
+h1,
+h3,
+h5 {
+  font-weight: lighter;
+}
+
+h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.7em;
+}
+
+a,
+a:visited {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+hr.hr-blue {
+  background: #ad9d63;
+  width: 7%;
+}
+
+hr.hr-white {
+  background: #fff;
+  width: 95%;
+}
+
+p.large {
+  font-size: 26px;
+}
+
+p.small {
+  font-size: 12px;
+}
+
+/* Utily Classes */
+.container {
+  margin: auto;
+  max-width: 1380px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 15px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-light {
+  background: #ad9d63;
+}
+
+.btn-light:hover {
+  background: #c1c7fa;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn-dark {
+  background: #ad9d63;
+}
+
+.btn-dark:hover {
+  background: #c1c7fa;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.text-orange {
+  color: #d6b334;
+}
+
+.text-yellow {
+  color: #faedc0;
+}
+
+.p-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.box {
+  width: 33.3%;
+  float: left;
+  padding: 30px;
+}
+
+/* Header */
+#header-top {
+  background: #747aad;
+  color: #fff;
+  height: 150vh;
+}
+
+/* Navbar */
+#navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#navbar .logo {
+  float: left;
+  font-size: 37px;
+  text-transform: uppercase;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+  display: inline-block;
+}
+
+#navbar ul li {
+  float: left;
+  padding: 15px;
+}
+
+/* Showcase */
+#showcase {
+  text-align: center;
+  padding-top: 310px;
+}
+
+#showcase h1,
+#showcase p {
+  padding: 10px;
+}
+
+#showcase p {
+  margin-bottom: 60px;
+}
+
+/* Services */
+#services {
+  text-align: center;
+}
+
+#services .box h5 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Contact */
+#contact {
+  background: #dee1ff;
+  text-align: center;
+}
+
+#contact input,
+#contact textarea
+ {
+  width: 40%;
+  padding: 10px;
+  border-radius: 1px rgb(198, 194, 235) solid;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  color: #848488;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Footer */
+#mainfooter {
+  background: #747aad;
+  color: #fff;
+}
+
+#mainfooter ul {
+  list-style: none;
+}
+
+#mainfooter ul li {
+  padding-bottom: 4px;
+}
+
+#mainfooter p {
+  text-align: center;
+}
